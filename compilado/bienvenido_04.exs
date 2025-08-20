@@ -1,10 +1,10 @@
 defmodule Bienvenido do
 
   def mostrar_mensaje() do
-    "Función pública "
+    "Bienvenido a la organización Once Ltda"
     |> Util.mostrar_mensaje()
   end
 
 end
 
-Secuencial.mostrar_mensaje()
+Bienvenido.mostrar_mensaje()
