@@ -1,6 +1,6 @@
 defmodule Bienvenido do
 
-  def mostrar_mensaje() do
+  def main() do
 
     Util.pedir_datos()
     |> Util.mostrar_mensaje()
@@ -8,4 +8,4 @@ defmodule Bienvenido do
 
 end
 
-Bienvenido.mostrar_mensaje()
+Bienvenido.main()
