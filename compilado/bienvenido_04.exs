@@ -1,7 +1,8 @@
 defmodule Bienvenido do
 
   def mostrar_mensaje() do
-    "Bienvenido a la organización Once Ltda"
+
+    Util.pedir_datos()
     |> Util.mostrar_mensaje()
   end
 
