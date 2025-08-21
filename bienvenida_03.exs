@@ -1,12 +1,9 @@
 
 defmodule Bienvenida do
-
-
   def mostrar_mensaje() do
     "Bienvenidos a la empresa Once Ltda"
     |> mensaje_privado()
   end
-
 
   defp mensaje_privado(mensaje) do
     mensaje
