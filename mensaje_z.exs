@@ -1,2 +1,0 @@
-"mensaje"
-|>IO.puts()
