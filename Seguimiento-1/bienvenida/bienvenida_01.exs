@@ -3,7 +3,7 @@ defmodule Bienvenida do
 
 
   def mostrar_mensaje() do
-    "Bienvenidos a la empresa Once Ltda"
+    "Bienvenidos a la empresa Once Ltda e"
     |> IO.puts()
   end
 
