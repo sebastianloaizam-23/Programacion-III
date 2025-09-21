@@ -8,7 +8,9 @@ defmodule Tupla5 do
   IO.inspect(lista)
 
   end
+def tuplaALista(tupla) do
 
+end
 end
 Tupla5.main()
 
