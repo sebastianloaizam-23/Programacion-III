@@ -1,15 +1,14 @@
-defmodule Main do
-  #caso base lista vacia
-  def contar_multiplos([]), do: 0
-
-  #caso recursivo
-  def contar_multiplos([head | tail]) do
-    if rem(head, 3) == 0 or rem(head,5) ==0 do
-      contar_multiplos(tail) + 1
-    else
-      contar_multiplos(tail)
-    end
+defmodule Factorial do
+  def factorial(n, 1) when n <= 0 do
+    IO.puts("ERROR: El numero debe ser mayor a 0")
   end
+
+
+
+  def factorial(n, suma) do
+    factorial(n - 1, n * suma)
+  end
+
 end
-lista = [2, 3, 5, 7, 9, 10, 14, 15]
-IO.puts Main.contar_multiplos(lista)
+
+Factorial.factorial(4, 1)
