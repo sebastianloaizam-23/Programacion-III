@@ -27,7 +27,7 @@ defmodule Curso do
     IO.inspect(Curso.alta_carga?(curso1))
 
     curso_actualizado = Curso.cambiar_docente(curso1, "Ing. Jorge Ruiz")
-    IO.puts("\n👨‍🏫 Curso con nuevo docente:")
+    IO.puts("\nCurso con nuevo docente:")
     IO.inspect(curso_actualizado)
   end
 end
